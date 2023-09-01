@@ -1,0 +1,386 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.homepage{
+    width: 100%;
+background-color: black;
+background-image: url(../img/hero_02.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+    
+}
+.hometop{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+
+}
+.navbar{
+    margin-left: 200px;
+    font-size: x-large;
+}
+
+.menu{
+    text-decoration: none;
+    margin-right: 10%;
+    font-size: large;
+    color: white;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+  }
+.title{
+    margin-top: 100px;
+}
+.title hr{
+    width: 5%;
+    margin-right: 85%;
+    border-color: #e9204f;
+}
+.title h1{
+    color: rgb(255, 255, 255);
+    font-size: 100;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.first{
+    position: relative;
+    text-decoration: none;
+    background-color: black;
+    border-color: #e9204f;
+   padding: 15 40;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    margin-left: 10%;
+    margin-top: -40px;
+}
+
+
+.first:hover .second{
+    background-color: #e9204f;
+}
+
+
+
+.threecontainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10% 10% ;
+    justify-content: space-around;
+
+}
+.container1{
+background-color: #e9204f;
+width: 27%;
+text-align: left;
+padding: 30px 20px 80px 20px;
+color: rgb(255, 255, 255);
+}
+.container2{
+background-color: #2a2a2a;
+width: 27%;
+text-align: left;
+padding: 30px 20px 80px 20px;
+color: rgb(255, 255, 255);
+}
+.container3{
+background-color: #2a2a2a;
+width: 27%;
+text-align: left;
+padding: 30px 20px 80px 20px;
+color: rgb(255, 255, 255);
+}
+
+.secondpage{
+    margin-top: -153px;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+
+}
+.line{
+    width: 3%;
+    margin-right: 85%;
+    border-color: #e9204f;
+}
+.secondpage h1{
+    color: rgb(255, 255, 255);
+    font-size: 50;
+    width: 50%;
+    margin-left: 12%;
+}
+.secondpage h3{
+    color: #e9204f;
+    font-size: 20;
+    width: 50%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+}
+.threecategories{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+.threecategories input{
+    text-decoration: none;
+    background-color: #2a2a2a;
+    padding: 40px 130px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    margin-top: 2%;
+    border: none;
+}
+.middle{
+    margin: 0 20px;
+}
+.thirdpage{
+    margin-top: -153px;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+
+}
+.line{
+    width: 3%;
+    margin-right: 85%;
+    border-color: #e9204f;
+}
+.thirdpage h1{
+    color: rgb(255, 255, 255);
+    font-size: 50;
+    width: 50%;
+    margin-left: 12%;
+}
+.thirdpage h3{
+    color: #e9204f;
+    font-size: 20;
+    width: 50%;
+    margin-left: 12%;
+    padding-bottom: 5%;}
+    .thirdpage input{
+        text-decoration: none;
+        background-color: black;
+        border-color: #e9204f;
+       padding: 15 40;
+        color: rgb(255, 255, 255);
+        font-size: medium;
+        float: right;
+        margin-right: 40px;
+    }
+    .thirdcategories{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .thirdimg{
+        width: 480px;
+        height: 480px;
+        
+    }
+    .fourthpage{
+        width: 100%;
+        background-color: rgb(23, 23, 23);
+    
+    }
+    .line{
+        width: 3%;
+        margin-right: 85%;
+        border-color: #e9204f;
+    }
+    .fourthpage h1{
+        color: rgb(255, 255, 255);
+        font-size: 50;
+        width: 50%;
+        margin-left: 12%;
+    }
+    .fourthtitle h2{
+        width: 35%;
+        margin-right: 40px;
+        color: rgb(255, 255, 255);
+        float: right;
+        font-size: small;
+        padding-bottom: 5%;
+
+    }
+
+    .fourthpage h3{
+        color: #e9204f;
+        font-size: 15;
+        width: 50%;
+        margin-left: 12%;
+        padding-bottom: 5%;}
+        .fourthcategories{
+            width: 100%;
+            padding-bottom: 10%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .fourthimg{
+            width: 610px;
+            height: 539px;
+        }
+        .fourthimg1{
+            width: 340px;
+            height: 224px;
+            float: right;
+        }
+        .fourthimg2{
+            width: 340px;
+            height: 224px;
+            float: right;
+        }
+        .fifthpage{
+            background-color: rgb(23, 23, 23);
+
+            margin-top: -200px;
+        }
+        .fifthcontainer{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 10% 10% ;
+            justify-content: space-around;
+        
+        }
+        .container5{
+        width: 27%;
+        text-align: left;
+        padding: 30px 20px 80px 20px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+        }
+        .sixthpage{
+            background-color: rgb(23, 23, 23);
+                width: 100%;
+                float: right;
+                display: flex;
+                justify-content: space-around;
+                margin-top: -180px;
+                padding-bottom: 200px;
+             
+
+                
+        }
+        
+        .line1{
+            width: 3%;
+            margin-right: 85%;
+            border-color: #e9204f;
+            text-align: left;
+            float: right;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }
+        .sixtitle h1{
+            color: rgb(255, 255, 255);
+            font-size: 50;
+            width: 50%;
+            margin-left: 12%;
+        }
+        .sixtitle h2{
+            width: 35%;
+            margin-right: 40px;
+            color: rgb(255, 255, 255);
+            font-size: ;
+            padding-bottom: 5%;
+            margin-left: 12%;
+    
+        }
+    
+        .sixtitle h3{
+            color: #e9204f;
+            font-size: 15;
+            width: 50%;
+            margin-left: 12%;
+            padding-bottom: 5%;}
+            .seventhpage{
+                background-color: rgb(23, 23, 23);
+               
+                display: flex;
+            align-items: center;
+            margin: 200px 200px ;
+            justify-content: space-around;
+            
+            
+            }
+            .seventhtitle{
+                background-color:rgb(23, 23, 23) ;
+                padding: 100px;
+                color: rgb(255, 255, 255);
+            font-size: 50;
+            text-align: center;
+            margin-top: -250px;
+            }
+            .eighttitle{
+                background-color:rgb(23, 23, 23) ;
+                padding: 100px 0;
+              
+            }
+            .eighttitle i{
+                color: aliceblue;
+                float: left;
+                font-size: x-large;
+                border-color: #e9204f;
+                border-radius: 50px;
+                margin: 10px;
+                
+                
+            }
+            .eighttitle h1{
+                font-size: 50;
+                color: aliceblue;
+                text-align: center;
+            }
+            .eighttitle input{
+                text-decoration: none;
+                background-color: black;
+                border-color: #e9204f;
+                padding: 15 40;
+                color: rgb(255, 255, 255);
+                font-size: medium;
+                float: right;
+                margin-right: 200px;
+            }
+            .lastsection{
+                background-color:rgb(23, 23, 23) ;
+                padding: 50px 0;
+            }
+            .lastpage{
+                color: aliceblue;
+                display: flex;
+    justify-content: space-between;
+margin: 0 25%;} 
+
+    
+            .lasttitle{
+color: aliceblue;
+padding-right: 50px;
+            }
+            .lastmenu{
+                padding: 50px 100px;
+                display: flex;
+    justify-content: space-between;
+            }
+            
+                
+
+
+
+    

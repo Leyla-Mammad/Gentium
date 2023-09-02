@@ -54,24 +54,86 @@ background-repeat: no-repeat;
     margin-left: 10%;
 }
 
-.first{
+.title a{
+    position: relative;
+    padding: 20px 40px;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid #e9204f;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: -40px;
+    z-index: 1;
+}
+.title a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    background-color: #e9204f;
+    transition: 0.7s;
+    height: 100%;
+    z-index: -1;
+}
+.title a:hover::after{
+    width: 100%;
+
+}
+.thirdtitle a{
     position: relative;
     text-decoration: none;
     background-color: black;
-    border-color: #e9204f;
-   padding: 15 40;
+    border: 2px solid #e9204f;
+   padding: 20 40;
     color: rgb(255, 255, 255);
     font-size: medium;
-    margin-left: 10%;
-    margin-top: -40px;
-}
-
-
-.first:hover .second{
-    background-color: #e9204f;
-}
-
-
+    float: right;
+    margin-right: 100px;
+    display: inline-block;
+    z-index: 1;}
+    .thirdtitle a::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        background-color: #e9204f;
+        transition: 0.7s;
+        height: 100%;
+        z-index: -1;
+    }
+    .thirdtitle a:hover::after{
+        width: 100%;
+    }
+    .eighttitle a{
+        position: relative;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid #e9204f;
+   padding: 20 40;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    float: right;
+    margin-right: 100px;
+    display: inline-block;
+    z-index: 1;}
+        .eighttitle a::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            background-color: #e9204f;
+            transition: 0.7s;
+            height: 100%;
+            z-index: -1;
+        }
+        .eighttitle a:hover::after{
+            width: 100%;
+        }
+        
 
 .threecontainer{
     display: flex;
@@ -80,6 +142,10 @@ background-repeat: no-repeat;
     margin: 10% 10% ;
     justify-content: space-around;
 
+}
+.threecategories a:hover{
+    background-color: #e9204f;
+    font-size: x-large;
 }
 .container1{
 background-color: #e9204f;
@@ -94,6 +160,22 @@ width: 27%;
 text-align: left;
 padding: 30px 20px 80px 20px;
 color: rgb(255, 255, 255);
+
+}
+.container2:hover{
+    background-color: #e9204f;
+    transition: 1s;
+    width: 27%;
+text-align: left;
+padding: 30px 20px 80px 20px;
+color: rgb(255, 255, 255);
+}
+.container1 i{margin-bottom: 20%; font-size: 50px; }
+.container2 i{ margin-bottom: 20%; font-size: 50px; color: #e9204f;}
+.container3 i{ margin-bottom: 20%; font-size: 50px; color: #e9204f;}
+.container2:hover i{
+    color: #ffffff;
+    transition: 1s;
 }
 .container3{
 background-color: #2a2a2a;
@@ -101,6 +183,18 @@ width: 27%;
 text-align: left;
 padding: 30px 20px 80px 20px;
 color: rgb(255, 255, 255);
+}
+.container3:hover{
+    background-color: #e9204f;
+    transition: 1s;
+    width: 27%;
+text-align: left;
+padding: 30px 20px 80px 20px;
+color: rgb(255, 255, 255);
+}
+.container3:hover i{
+    color: #fffefe;
+    transition: 1s;
 }
 
 .secondpage{
@@ -128,14 +222,16 @@ color: rgb(255, 255, 255);
     margin-bottom: 5%;
 }
 .threecategories{
-    width: 100%;
+    
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 10%;
+    text-align: left;
+    
 }
-.threecategories input{
+
+.threecategories a{
+width: 100%;
     text-decoration: none;
     background-color: #2a2a2a;
     padding: 40px 130px;
@@ -143,12 +239,17 @@ color: rgb(255, 255, 255);
     font-size: large;
     margin-top: 2%;
     border: none;
-}
-.middle{
     margin: 0 20px;
+    border: 3px solid 100px;
+    text-align: left;
 }
+.categories2{
+    margin: 100px 0;
+    
+}
+
 .thirdpage{
-    margin-top: -153px;
+    margin-top: -20px;
     width: 100%;
     background-color: rgb(23, 23, 23);
 
@@ -298,7 +399,6 @@ color: rgb(255, 255, 255);
             width: 35%;
             margin-right: 40px;
             color: rgb(255, 255, 255);
-            font-size: ;
             padding-bottom: 5%;
             margin-left: 12%;
     
@@ -378,9 +478,27 @@ padding-right: 50px;
                 display: flex;
     justify-content: space-between;
             }
-            
+            .lastpage1:hover{
+                color: #e9204f;
                 
+            }
 
+            .lastpage2:hover{
+                color: #e9204f;
+                
+            }
+.eighticon{
+    position: relative;
+    z-index: 1;
+}
+
+                
+.eighticon:hover{
+
+    color: #e9204f;
+    transition: 0.7s;
+
+}
 
 
     

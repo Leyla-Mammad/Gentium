@@ -17,27 +17,57 @@ background-repeat: no-repeat;
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    margin-top: 3%px;
-    width: 100%;
+    align-items: center;
+    width: 80%;
+    margin: auto;
     color: rgb(255, 255, 255);
 
 
 }
+.home{
+    position: relative;
+    z-index: 1;
+}
+.home::after{
+    content: "";
+    position: absolute;
+width: 25px;
+bottom: -5px;
+left: 0;
+z-index: -1;
+background-color: #e9204f;
+height: 3px;
+}
+.others{
+    position: relative;
+    z-index: 1;
+}
+.others::after{
+    content: "";
+    position: absolute;
+width: 0;
+bottom: -5px;
+left: 0;
+z-index: -1;
+background-color: #e9204f;
+height: 3px;
+transition: 0.5s;
+}
+.others:hover::after{
+    width: 20px;
+}
+
 .navbar{
-    margin-left: 200px;
+
     font-size: x-large;
 }
 
-.menu{
+.menu a{
     text-decoration: none;
-    margin-right: 10%;
+    margin-right: 40px;
     font-size: large;
     color: white;
-    width: 700px;
-    display: flex;
-    justify-content: space-between;
   }
 .title{
     margin-top: 100px;
@@ -433,16 +463,9 @@ width: 100%;
                 padding: 100px 0;
               
             }
-            .eighttitle i{
-                color: aliceblue;
-                float: left;
-                font-size: x-large;
-                border-color: #e9204f;
-                border-radius: 50px;
-                margin: 10px;
+           
                 
-                
-            }
+            
             .eighttitle h1{
                 font-size: 50;
                 color: aliceblue;
@@ -485,20 +508,41 @@ padding-right: 50px;
 
             .lastpage2:hover{
                 color: #e9204f;
-                
             }
-.eighticon{
-    position: relative;
-    z-index: 1;
-}
-
                 
-.eighticon:hover{
+.eighticon i{
+    color: aliceblue;
+                float: left;
+                font-size: large;
+                border: 2px solid #e9204f;
+                padding: 10px;
+                border-radius: 100px;
+                margin: 10px;
+                position: relative;
+                z-index: 1;
+                
+}
+.eighticon i::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 0;
+    color: #e9204f;
+    transition: 0.5s;
+    background-color: #e9204f;
+}
+                
+.eighticon i:hover::after{
 
     color: #e9204f;
-    transition: 0.7s;
+    bottom: 5px;
 
 }
+
+
+
 
 
     
